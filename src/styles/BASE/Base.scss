@@ -1,0 +1,19 @@
+@use "partials" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: fontFamily(primary);
+  color: #3D3D3D;
+}
+
+body {
+  overflow: hidden;
+}
+
+.base_container {
+  height: 100vh;
+  width: 100vw;
+}
+

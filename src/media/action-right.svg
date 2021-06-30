@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="24" viewBox="0 0 26 24">
+  <g id="Notifications" transform="translate(-1880 -48)">
+    <path id="Icon" d="M1896,48V61h-5l-3,3-3-3h-5V48Zm-13,3v1h10V51Zm0,3v1h10V54Zm0,3v1h6V57Z"/>
+    <g id="Number">
+      <g id="Ellipse">
+        <circle id="Ellipse_4" data-name="Ellipse 4" cx="8" cy="8" r="8" transform="translate(1889.5 55.5)" fill="#dadada" opacity="0.8"/>
+        <circle id="Ellipse_5" data-name="Ellipse 5" cx="8" cy="8" r="8" transform="translate(1889.5 55.5)" fill="none" stroke="#868686" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+      <text id="_5" data-name="5" transform="translate(1893.768 67.634)" fill="#3d3d3d" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">5</tspan></text>
+    </g>
+  </g>
+</svg>

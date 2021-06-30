@@ -1,0 +1,54 @@
+@use "../BASE/partials" as *;
+
+.title_bar {
+  width: 100%;
+  height: 30px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.title_bar_info_block {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  padding-left: 5px;
+}
+
+.title_bar_app_icon {
+  height: 20px;
+}
+
+.title_bar_app_name {
+  font-size: 12px;
+}
+
+.title_bar_control_icons {
+  height: 100%;
+  display: flex;
+}
+
+.control_icon_block {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: #E6E6E6;
+  }
+}
+
+.close_icon_block {
+  &:hover {
+    background-color: #E81123;
+    svg {
+      path {
+        fill: #fff;
+      }
+    }
+  }
+}
+

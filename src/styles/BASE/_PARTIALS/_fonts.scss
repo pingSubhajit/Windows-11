@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+$fonts: (
+  primary: "Segoe UI",
+  secondary: 'Open Sans',
+  tertiary: 'HomePage',
+  satisfy: "Satisfy"
+);
+
+@function fontFamily($font-var) {
+  @return map-get($fonts, $font-var)
+};
